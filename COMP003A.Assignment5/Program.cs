@@ -36,7 +36,8 @@ namespace COMP003A.Assignment5
         /// Method with one parameter but no return value
         /// </summary>
         /// <param name="text">string text input</param>
-        static void PrintSeparator(string text) {
+        static void PrintSeparator(string text) 
+        {
             PrintSeparator();
             Console.WriteLine(text);
             PrintSeparator();
